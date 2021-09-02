@@ -1,0 +1,113 @@
+.title {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 45px;
+  text-transform: uppercase;
+  background: linear-gradient(
+    to right,
+    #70c527,
+    #1cce6f,
+    #00d3a8,
+    #00d3d3,
+    #0ed1ed,
+    #35c9f9,
+    #5fbffd,
+    #85b3fa,
+    #999cf5,
+    #b87fe3,
+    #d55bc1,
+    #e82892
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-image: linear-gradient(
+    to right,
+    #70c527,
+    #1cce6f,
+    #00d3a8,
+    #00d3d3,
+    #0ed1ed,
+    #35c9f9,
+    #5fbffd,
+    #85b3fa,
+    #999cf5,
+    #b87fe3,
+    #d55bc1,
+    #e82892
+  );
+}
+.statistics_list {
+  display: flex;
+  justify-content: center;
+}
+.statistics_item {
+  padding-top: 20px;
+  font-size: 25px;
+  font-weight: 700;
+}
+.statistics_item:not(:first-child) {
+  margin-left: 50px;
+}
+.span {
+  margin-left: 10px;
+  font-size: 30px;
+}
+
+.good {
+  color: #70c527;
+}
+.neutral {
+  color: #35c9f9;
+}
+.bad {
+  color: #e82892;
+}
+
+.total_list {
+  margin-top: 45px;
+  text-align: center;
+}
+.total_item {
+  font-size: 30px;
+  font-weight: 700;
+}
+.percent_item {
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
+  padding-top: 20px;
+  background: linear-gradient(
+    to right,
+    #70c527,
+    #1cce6f,
+    #00d3a8,
+    #00d3d3,
+    #0ed1ed,
+    #35c9f9,
+    #5fbffd,
+    #85b3fa,
+    #999cf5,
+    #b87fe3,
+    #d55bc1,
+    #e82892
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-image: linear-gradient(
+    to right,
+    #70c527,
+    #1cce6f,
+    #00d3a8,
+    #00d3d3,
+    #0ed1ed,
+    #35c9f9,
+    #5fbffd,
+    #85b3fa,
+    #999cf5,
+    #b87fe3,
+    #d55bc1,
+    #e82892
+  );
+}

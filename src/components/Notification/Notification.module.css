@@ -1,0 +1,40 @@
+.notification {
+  margin-top: 50px;
+  text-align: center;
+  font-weight: 600;
+  font-size: 45px;
+  text-transform: uppercase;
+  opacity: 0.5;
+  background: linear-gradient(
+    to right,
+    #70c527,
+    #1cce6f,
+    #00d3a8,
+    #00d3d3,
+    #0ed1ed,
+    #35c9f9,
+    #5fbffd,
+    #85b3fa,
+    #999cf5,
+    #b87fe3,
+    #d55bc1,
+    #e82892
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-image: linear-gradient(
+    to right,
+    #70c527,
+    #1cce6f,
+    #00d3a8,
+    #00d3d3,
+    #0ed1ed,
+    #35c9f9,
+    #5fbffd,
+    #85b3fa,
+    #999cf5,
+    #b87fe3,
+    #d55bc1,
+    #e82892
+  );
+}

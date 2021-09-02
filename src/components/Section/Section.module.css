@@ -1,0 +1,44 @@
+.section {
+  /* padding-top: 180px; */
+}
+
+.title {
+  text-align: center;
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 50px;
+  background: linear-gradient(
+    to right,
+    #70c527,
+    #1cce6f,
+    #00d3a8,
+    #00d3d3,
+    #0ed1ed,
+    #35c9f9,
+    #5fbffd,
+    #85b3fa,
+    #999cf5,
+    #b87fe3,
+    #d55bc1,
+    #e82892
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border-image: linear-gradient(
+    to right,
+    #70c527,
+    #1cce6f,
+    #00d3a8,
+    #00d3d3,
+    #0ed1ed,
+    #35c9f9,
+    #5fbffd,
+    #85b3fa,
+    #999cf5,
+    #b87fe3,
+    #d55bc1,
+    #e82892
+  );
+}
